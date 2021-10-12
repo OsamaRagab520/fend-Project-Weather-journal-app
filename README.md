@@ -1,11 +1,41 @@
 # Weather-Journal App Project
+### Introduction 
 
-## Overview
-This project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI. 
+This was the second project in "Front-end Professional Nanodgree" to apply what we have learned about __Node__, __Express__, and __JS asynchronicity__ to write server side code and use it with client side code.
 
-## Instructions
-This will require modifying the `server.js` file and the `website/app.js` file. You can see `index.html` for element references, and once you are finished with the project steps, you can use `style.css` to style your application to customized perfection.
+### Pre-requisites and Local Development
+Developers using this project should already have Node.js on their local machines.
 
-## Extras
-If you are interested in testing your code as you go, you can use `tests.js` as a template for writing and running some basic tests for your code.
-# fend-Project-Weather-journal-app
+To run the application locally run the following commands:
+
+    $ node server.js
+
+The application is run on `http://127.0.0.1:3000/` by default.
+
+### Description 
+
+Project was about building our own API and use an external API then writing our client side code to fetch and post data our data then update the UI.
+
+### What i did to do so:
+
+1. Implement server-side code (API) with two main routes one for posting the data and another for retrieving the data.
+2. Used an external API to fetch real-world data (open weather map API).
+3. leveraged JS asynchronicity abilities to chain events that depend on each other to achieve the desired output in the client-side code. 
+
+### Project Structure
+
+    │   package-lock.json
+    │   README.md
+    │   server.js
+    │
+    ├───commentsOnlyJS
+    │       app.js
+    │       server.js
+    │
+    ├───node_modules
+    │
+    └───website
+            app.js
+            index.html
+            style.css
+            
